@@ -1,3 +1,4 @@
+echo "# Ignore Python and macOS system files" | cat - .gitignore > temp && mv temp .gitignore
 venv/
 __pycache__/
 *.pyc
